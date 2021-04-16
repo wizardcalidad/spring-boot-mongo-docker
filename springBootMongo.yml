@@ -23,7 +23,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: dockerhandson/spring-boot-mongo
+      - image: wizardcalidad/dockeransiblejenkins:{{docker_tag}}
         name: springboot
         ports:
         - containerPort: 8080  
